@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 40px;
+    padding-bottom: 0px;
     color: #242424;
     border-top: 10px solid #d88484;
     background: #fff;
@@ -94,9 +95,10 @@ nav {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-.left-fav,
+.left-fav, 
 .right-fav {
     /* Equal side columms */
     flex: 1;
@@ -115,13 +117,35 @@ nav {
 }
 
 #contact {
+    /* Contact form */
     margin: 20px;
     padding: 20px;
+    margin-bottom: 40px;
 }
 
 #contact form label {
     display: block;
-    /* Ensures each label is a block-level element, taking up the full width */
     margin-bottom: 15px;
-    /* Adds some space after each label */
+}
+
+#updates {
+    /* Subscribe section */
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    /* Footer at bottom of page */
+    bottom: 0;
+    background-color: #d88484;
+    margin-left: -40px;;
+    margin-right: -40px;
+    color: #000;
+}
+
+footer p {
+    /* Text size for footer */
+    font-size: .9em;
+    margin: 1em;
 }
